@@ -1,0 +1,63 @@
+form {
+    width: 30%; 
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #446E96;
+}
+
+form fieldset {
+    border: 0;
+}
+
+form fieldset label {
+    font-weight: bold;
+    text-align: start;
+    display: block;
+    margin: 5px;
+    color: #ffffff;
+}
+
+form fieldset input, textarea {
+    width: 100%;
+    outline: none;
+}
+
+.localizacao {
+    font-family: 'Michroma', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 32px;
+}
+
+.button {
+    border: 0;
+    border-radius: 10px;
+    color: #245358;
+    padding: 13px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.button:hover {
+    color: #6fa6d8c9;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 390px) {
+    form {
+        width: 75%;
+    }
+
+    div.localizacao h2 {
+        font-size: 15px;
+    }
+
+}
+
+
+

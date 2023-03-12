@@ -1,0 +1,59 @@
+h3 {
+    color: #3a6791;
+}
+
+.titulo-produtos {
+
+    text-align: start;
+    font-family: 'Michroma', sans-serif;
+    font-size: 18px;
+}
+
+.card {
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.cards {
+    margin: 50px;
+    color: #446E96;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.card-img {
+    width: 300px;
+    height: 300px;
+}
+
+.btn-compra {
+    display: block;
+    font-family: 'Michroma', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3a6791;
+    color: #FFFFFF;
+}
+
+.btn-compra:hover {
+    background-color: #2079cd92;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 320px) {
+    section.cards img {
+        width: 250px;
+        height: 200px;
+    }
+
+}
+
