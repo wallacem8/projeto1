@@ -75,7 +75,7 @@ div.conteudo-principal-escrito h3 {
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-    background-image: url('/assets/grama.jpg');
+    background-image: url('../assets/grama.jpg');
     background-size: 800px;
     align-items: center;
     justify-content: space-evenly;
