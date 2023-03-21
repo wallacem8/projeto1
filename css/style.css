@@ -175,3 +175,7 @@ div.conteudo-principal-escrito h3 {
 
 
 }
+
+.invalid {
+    border: 2px solid red;
+}
