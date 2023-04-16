@@ -128,7 +128,7 @@ div.conteudo-principal-escrito h3 {
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 800px) {
     .conteudo {
         padding: 10px;
         margin: 8px;
@@ -143,7 +143,7 @@ div.conteudo-principal-escrito h3 {
     }
 
     .conteudo-principal-imagem {
-        width: 350px;
+        width: 250px;
     }
 
     .conteudo-secundario-texto {
@@ -157,7 +157,7 @@ div.conteudo-principal-escrito h3 {
     }
 
     .conteudo-secundario-imagem {
-        width: 100%;
+        width: 250px;
     }
 
     div.titulo-video h3 {
@@ -165,8 +165,8 @@ div.conteudo-principal-escrito h3 {
     }
 
     iframe {
-        width: 260px;
-        height: 180px;
+        width: 190px;
+        height: 150px;
     }
 
     footer.rodape p {
